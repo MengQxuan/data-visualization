@@ -1,0 +1,102 @@
+/* 设置表格的外边距和内边距 */
+table {
+    margin: 20px auto;
+    /* 居中显示表格 */
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    /* 控制表格的最大宽度 */
+}
+
+/* 设置表格头部的背景颜色和文本样式 */
+thead {
+    background-color: #81BEF7;
+    /* 表头背景颜色 */
+    color: #000;
+    /* 表头文本颜色 */
+    font-weight: bold;
+    /* 表头文本加粗 */
+}
+
+/* 设置表格行的样式 */
+tr {
+    border: 1px solid black;
+    /* 设置表格边框 */
+}
+
+/* 设置表格单元格的样式 */
+td,
+th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+    /* 设置单元格边框 */
+}
+
+/* 设置表格奇数行的背景颜色 */
+tr:nth-child(odd) {
+    background-color: #56bd8a;
+    /* 奇数行的背景颜色 */
+}
+
+/* 鼠标悬浮时高亮显示 */
+tr:hover {
+    background-color: #662362;
+    /* 悬浮时的背景颜色 */
+}
+
+/* 使用 CSS 来水平居中文本、设置文本颜色和背景图片 */
+body {
+    height: 100vh;
+    /* 设置页面高度为视口高度 */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    /* 设置文本颜色为白色 */
+    background-image: url('./Images/img28.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+/* 正常状态下的链接样式 */
+#baike {
+    color: #f7fb00;
+    /* 设置链接文本颜色为黑色 */
+    text-decoration: none;
+    /* 移除下划线 */
+    text-align: center;
+}
+
+/* 鼠标悬浮在链接上时的样式 */
+#baike:hover {
+    color: #00FF00;
+    /* 设置链接文本颜色为红色 */
+}
+
+/* 点击链接后的样式 */
+#baike:active {
+    color: #000000;
+    /* 设置链接文本颜色为绿色 */
+}
+
+/*p.a内容居中显示*/
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.dialog {
+    
+    text-align: center;
+    line-height: 20px;
+    /*文字水平居中*/
+    margin: auto;
+    /*div水平居中*/
+}

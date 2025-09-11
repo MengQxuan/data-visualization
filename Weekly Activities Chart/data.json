@@ -1,0 +1,51 @@
+[
+    {
+        "day": "Monday",
+        "sleep": 8.5,
+        "eat": 2,
+        "schooltime": 6.75,
+        "exercise": 2
+    },
+    {
+        "day": "Tuesday",
+        "sleep": 8,
+        "eat": 2,
+        "schooltime": 8,
+        "exercise": 1
+    },
+    {
+        "day": "Wednesday",
+        "sleep": 8.5,
+        "eat": 2,
+        "schooltime": 6,
+        "exercise": 4.5
+    },
+    {
+        "day": "Thursday",
+        "sleep": 8.5,
+        "eat": 2,
+        "schooltime": 4.5,
+        "exercise": 2.5
+    },
+    {
+        "day": "Friday",
+        "sleep": 8.5,
+        "eat": 2,
+        "schooltime": 3,
+        "exercise": 3
+    },
+    {
+        "day": "Saturday",
+        "sleep": 9.5,
+        "eat": 2.5,
+        "schooltime": 3,
+        "exercise": 2
+    },
+    {
+        "day": "Sunday",
+        "sleep": 9,
+        "eat": 2.5,
+        "schooltime": 5,
+        "exercise": 2
+    }
+]
